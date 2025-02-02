@@ -1,4 +1,5 @@
-import Sidebar from "../components/sidebar";
+import React from "react";
+import Navbar from "../components/navbar";
 import { Select, Input, Button } from "antd";
 import '../css/login.css';
 
@@ -21,7 +22,7 @@ function InputBar() {
                         { value: 'professor', label: <span>教师</span> },
                         { value: 'administrator', label: <span>管理员</span> }]} />
       <Input placeholder="" />
-      <Input placeholder="" />
+      <Input.Password placeholder=""/>
     </div>
   )
 }
@@ -29,7 +30,7 @@ function InputBar() {
 function Login() {
   return (
     <div className="login">
-      <Sidebar />
+      <Navbar name="login" />
       <div className="login-container">
         <div className="login-input-container">
           <InputName />
