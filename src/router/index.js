@@ -20,9 +20,6 @@ const router = createBrowserRouter([
   {
     path: '/course_selection',
     element: <CourseSelectPage />,
-    children: [
-
-    ]
   }
 ]);
 
