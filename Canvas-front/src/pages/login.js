@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../components/navbar";
 import { Select, Input, Button } from "antd";
 import '../css/login.css';
+import OuterContainer from "../components/outer_container";
+import InnerContainer from "../components/inner_container";
 
 function InputName() {
   return (
@@ -30,14 +32,20 @@ function InputBar() {
 function Login() {
   return (
     <div className="login">
-      <Navbar name="login" />
-      <div className="login-container">
-        <div className="login-input-container">
-          <InputName />
-          <InputBar />
+      <Navbar name="login"/>
+      <OuterContainer>
+        <div className="login-center-container">
+          <InnerContainer>
+            <div className="login-margin-container">
+              <div className="login-input-container">
+                <InputName/>
+                <InputBar/>
+              </div>
+              <Button className="login-button">登录</Button>
+            </div>
+          </InnerContainer>
         </div>
-        <Button className="login-button">登录</Button>
-      </div>
+      </OuterContainer>
     </div>
   )
 }

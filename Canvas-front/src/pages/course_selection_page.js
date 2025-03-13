@@ -18,7 +18,7 @@ function CourseSelectPage() {
     <div className="course-select-page">
       <Navbar name="course_select"/>
       <OuterContainer>
-        <InnerContainer>
+        <InnerContainer width={1080}>
           <div className="course-select-bar">
             <Title text="学生选课" />
             <CourseSelectNavbar/>

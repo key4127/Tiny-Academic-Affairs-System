@@ -8,8 +8,8 @@
 
 .inner-body-container {
     display: flex;
+    flex-direction: column;
     background-color: white;
-    width: 1080px;
     max-width: 100%;
     margin: 8px;
 }

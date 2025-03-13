@@ -9,7 +9,6 @@ function StartPage() {
       <Navbar name="start_page" />
       <OuterContainer>
         <InnerContainer>
-
         </InnerContainer>
       </OuterContainer>
     </div>
