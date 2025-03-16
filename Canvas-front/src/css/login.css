@@ -33,12 +33,19 @@
 }
 
 /* Put the box in the center. */
-.login-center-container {
+.login-column-center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 1;
+}
+
+.login-row-center-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 50%;
     gap: 16px;
 }
 

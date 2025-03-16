@@ -34,7 +34,8 @@ function Login() {
     <div className="login">
       <Navbar name="login"/>
       <OuterContainer>
-        <div className="login-center-container">
+        <div className="login-column-center-container">
+        <div className="login-row-center-container">
           <InnerContainer>
             <div className="login-margin-container">
               <div className="login-input-container">
@@ -44,6 +45,7 @@ function Login() {
               <Button className="login-button">登录</Button>
             </div>
           </InnerContainer>
+        </div>
         </div>
       </OuterContainer>
     </div>
